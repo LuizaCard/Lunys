@@ -87,6 +87,12 @@ a{
     margin-bottom: 2%;
     margin-left: 23%;
 }
+.audio{
+    margin-left: 3%;
+    position: absolute;
+    margin-top: 3%;
+
+}
 .historia{
     width: 80%;
     margin: auto;
