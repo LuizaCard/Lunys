@@ -1,0 +1,89 @@
+body{
+    background-color: #e5dfeb;
+}
+.img1{
+    height: 20%;
+    float: left;
+    position: fixed;
+    margin-top: 10px;
+    margin-left: 10px;
+    transform: rotate(-20deg) scaleX(1);
+}
+.img2{
+    height: 35%;
+    float: right;
+    position: fixed;
+    margin-left: 89%;
+    margin-right: 40px;
+    margin-top: 10px;
+    transform: rotate(-20deg) scaleX(1);
+}
+.img3{
+    height: 18%;
+    position: fixed;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    bottom: 0;
+    object-fit: cover;
+    transform: rotate(20deg) scaleX(1);
+}
+.img4{
+    height: 20%;
+    position: fixed;
+    margin-bottom: 10px;
+    margin-left: 91%;
+    bottom: 0;
+    transform: rotate(-20deg) scaleX(1);
+}
+
+.div{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div1{
+    border: 3px solid black;
+    padding: 30px;
+    background: linear-gradient(40deg, #06075e 1%, #33012a 99%);
+}
+form{
+    text-align: center;
+    border: 3px solid black;
+    padding: 50px 150px;
+    background-color: white;
+
+
+}
+h1{
+    font-size: 60px;
+    text-transform: uppercase;
+}
+.input{
+    font-size: 18px;
+	height: 40px;
+    border-radius: 10px;
+	outline-color: #463ed6;
+	border: 3px solid #882a96;
+    padding-left: 5px;
+    background-color: #e5dfeb;
+}
+.senha{
+    font-size: 18px;
+	height: 50px;
+    width: 100px;
+    border-radius: 10px;
+	border: 3px solid #882a96;
+    background-color: #e5dfeb;
+    font-weight: bold;
+}
+p{
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
